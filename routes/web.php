@@ -18,8 +18,8 @@ Route::get('/', function () {
     return redirect('home');
 });
 Route::get('/home', function () {
-    return view('base');
+    return view('welcome');
 });
 Route::get('/page', function () {
-    return view('base');
+    return view('welcome');
 });

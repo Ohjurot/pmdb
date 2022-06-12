@@ -1,3 +1,3 @@
 <li class="nav-item">
-  <a class="{{ $class_str }}" href="{{ $href }}">{{ $name }}</a>
+  <a class="{{ $class_str }}" href="{{ url($href) }}">{{ $name }}</a>
 </li>
