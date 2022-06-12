@@ -1,3 +1,9 @@
 {
-    "test": "Hallo Welt!"
+    "app.name.short": "PMDB",
+    "app.name.title": "MovieDB",
+    "app.name.long": "Personal Movie Database",
+
+    "nav.search.placeholder": "Suchbegriff",
+    "nav.search.button": "Los",
+    "nav.entry.home": "Startseite"
 }

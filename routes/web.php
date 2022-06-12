@@ -15,7 +15,11 @@ use Tmdb\Laravel\Facades\Tmdb;
 */
 
 Route::get('/', function () {
-    // $id = 1576;
-    // return Tmdb::getMoviesApi()->getMovie($id);
+    return redirect('home');
+});
+Route::get('/home', function () {
+    return view('base');
+});
+Route::get('/page', function () {
     return view('base');
 });

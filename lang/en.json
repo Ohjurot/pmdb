@@ -1,5 +1,10 @@
 {
     "test": "Hello World!",
     "app.name.short": "PMDB",
-    "app.name.long": "Personal Movie Database"
+    "app.name.title": "MovieDB",
+    "app.name.long": "Personal Movie Database",
+
+    "nav.search.placeholder": "Search",
+    "nav.search.button": "Search",
+    "nav.entry.home": "Home"
 }
