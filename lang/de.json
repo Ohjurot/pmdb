@@ -5,5 +5,8 @@
 
     "nav.search.placeholder": "Suchbegriff",
     "nav.search.button": "Los",
-    "nav.entry.home": "Startseite"
+    "nav.entry.home": "Startseite",
+    "nav.language.selector.lable": "Sprache wählen (Change Language)",
+    "nav.language.selector.reset": "Automatisch erkennen"
+
 }

@@ -83,8 +83,10 @@ return [
     */
 
     'locale' => 'en',
-    'available_locales' => ['en', 'de'],
-    'debug_locale' => 'en',
+    'available_locales' => array(
+        'en' => ['en', 'English'],
+        'de' => ['de', 'German'],
+    ),
 
     /*
     |--------------------------------------------------------------------------

@@ -17,34 +17,25 @@ class AutoSetLanguage
      */
     public function handle(Request $request, Closure $next)
     {
-        // Check if debug setting should be used
-        if(App::hasDebugModeEnabled() && config()->has('app.debug_locale'))
+        // Try to set local base on current session
+        if ($request->session()->has('locale'))
         {
-            App::setLocale(config('app.debug_locale'));
+            App::setLocale($request->session()->get('locale'));
         }
-        // Else do runtime checking
+        // Else run auto detection based on browser
         else
         {
-            // Try to set local base on current session
-            if ($request->session()->has('locale'))
-            {
-                App::setLocale($request->session()->get('locale'));
-            }
-            // Else run auto detection based on browser
-            else
-            {
-                // Get available locals and locals supported by the browser
-                $app_locales = config('app.available_locales');
-                $user_locales = $request->getLanguages();
+            // Get available locals and locals supported by the browser
+            $app_locales = config('app.available_locales');
+            $user_locales = $request->getLanguages();
 
-                // Try to find first matching user local
-                foreach ($user_locales as $user_locale )
+            // Try to find first matching user local
+            foreach ($user_locales as $user_locale )
+            {
+                if(array_key_exists($user_locale, $app_locales))
                 {
-                    if(in_array($user_locale, $app_locales))
-                    {
-                        App::setLocale($user_locale);
-                        break;
-                    }
+                    App::setLocale($user_locale);
+                    break;
                 }
             }
         }

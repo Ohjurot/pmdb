@@ -1,4 +1,8 @@
 @include('skeleton.bar')
+@include('skeleton.switcher')
 
-<!-- NAVBAR -->
+<!-- Theme and language switcher -->
+@yield('switcher')
+
+<!-- Copyright bar -->
 @yield('copyright_bar')

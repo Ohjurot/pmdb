@@ -12,5 +12,9 @@ return [
     |
     */
 
-    "default_theme" => "darkly", // darkly, lux, lumen
+    "default_theme" => "darkly", // darkly, lux
+    "available_themes" => [
+        "Darkly (Dark)" => "darkly",
+        "Lux (Light)" => "lux",
+    ],
 ];

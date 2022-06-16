@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use Tmdb\Laravel\Facades\Tmdb;
 
+use App\Http\Controllers\SessionModify;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,3 +25,6 @@ Route::get('/home', function () {
 Route::get('/page', function () {
     return view('welcome');
 });
+
+// Session modifiers
+Route::get('/session/set/language', [SessionModify::class, 'SetLanguage']);
