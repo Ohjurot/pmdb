@@ -8,6 +8,8 @@
     "nav.entry.home": "Startseite",
     "nav.language.selector.label": "Sprache wählen",
     "nav.language.selector.reset": "Automatisch erkennen",
-    "nav.theme.selector.label": "Farbschema - :current"
+    "nav.theme.selector.label": "Farbschema - :current",
+    "nav.tmdb.discalimer.text": "Inhalte bereitgestellt durch",
+    "nav.tmdb.discalimer.thisimg": "(Auch das aktuelle Hintergrundbild)"
 
 }

@@ -8,5 +8,7 @@
     "nav.entry.home": "Home",
     "nav.language.selector.label": "Change Language",
     "nav.language.selector.reset": "Reset to browser defaults",
-    "nav.theme.selector.label": "Select Theme - :current"
+    "nav.theme.selector.label": "Select Theme - :current",
+    "nav.tmdb.discalimer.text": "Content powered by",
+    "nav.tmdb.discalimer.thisimg": "(Including the current background image)"
 }
