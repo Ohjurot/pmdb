@@ -1,9 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Tmdb\Laravel\Facades\Tmdb;
 
 use App\Http\Controllers\SessionModify;
+use App\Http\Controllers\LoginController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -23,8 +24,8 @@ Route::get('/home', function () {
     return view('welcome');
 });
 Route::get('/page', function () {
-    return view('welcome');
+    return view('sandbox');
 });
-
 // Session modifiers
-Route::get('/session/set/language', [SessionModify::class, 'SetLanguage']);
+Route::get('/session/set/language', [SessionModify::class, 'setLanguage']);
+Route::get('/session/set/theme', [SessionModify::class, 'setTheme']);

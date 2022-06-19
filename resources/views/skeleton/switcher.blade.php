@@ -7,7 +7,7 @@
           <x-nav.language-selector />
         </div>
         <div class="col-12 col-md-6">
-          THEME
+          <x-nav.theme-selector />
         </div>
       </div>
     </div>

@@ -6,7 +6,8 @@
     "nav.search.placeholder": "Suchbegriff",
     "nav.search.button": "Los",
     "nav.entry.home": "Startseite",
-    "nav.language.selector.lable": "Sprache wählen (Change Language)",
-    "nav.language.selector.reset": "Automatisch erkennen"
+    "nav.language.selector.label": "Sprache wählen",
+    "nav.language.selector.reset": "Automatisch erkennen",
+    "nav.theme.selector.label": "Farbschema - :current"
 
 }

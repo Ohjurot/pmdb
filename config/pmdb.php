@@ -14,7 +14,20 @@ return [
 
     "default_theme" => "darkly", // darkly, lux
     "available_themes" => [
-        "Darkly (Dark)" => "darkly",
-        "Lux (Light)" => "lux",
+        "darkly" => "Darkly (Dark)",
+        "lux" => "Lux (Light)",
+    ],
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Cover page backdrop configuration
+    |--------------------------------------------------------------------------
+    |
+    | The cover backdrop will use the backdrop image from one of these movies
+    |
+    */
+    "cover_backdrop_movie_ids" => [
+        1576, 1577, 7737, 35791, 71679, 173897
     ],
 ];

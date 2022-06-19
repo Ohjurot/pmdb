@@ -1,6 +1,6 @@
 <div class="dropdown">
   <a class="btn btn-info dropdown-toggle w-75" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-    <span class="fi fi-{{ $current_lang_symbol }}"></span> {{ __('nav.language.selector.lable') }}
+    <span class="fi fi-{{ $current_lang_symbol }}"></span> {{ __('nav.language.selector.label') }}
   </a>
 
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">

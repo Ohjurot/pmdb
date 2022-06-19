@@ -6,6 +6,7 @@
     "nav.search.placeholder": "Search",
     "nav.search.button": "Search",
     "nav.entry.home": "Home",
-    "nav.language.selector.lable": "Change Language",
-    "nav.language.selector.reset": "Reset to browser defaults"
+    "nav.language.selector.label": "Change Language",
+    "nav.language.selector.reset": "Reset to browser defaults",
+    "nav.theme.selector.label": "Select Theme - :current"
 }
